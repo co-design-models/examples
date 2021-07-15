@@ -1,0 +1,8 @@
+mcdp {
+    provides capacity [J]        
+    requires mass [kg] 
+       
+    specific_energy_Li_Ion = 500 Wh / kg 
+
+    required mass >= provided capacity / specific_energy_Li_Ion
+}

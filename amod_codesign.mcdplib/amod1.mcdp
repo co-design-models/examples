@@ -1,0 +1,10 @@
+mcdp {
+    provides demand [any]
+    provides network [any]
+    
+    requires number_of_cars [dimensionless]
+    requires travel_time [minutes]
+    requires velocity [km/h]
+    requires distance [km]
+    
+}

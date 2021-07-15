@@ -1,0 +1,14 @@
+mcdp {
+    provides energy [J]
+    
+    requires weight [kg]
+    requires cost [USD]
+    
+    specific_energy = 0.1 J/kg
+    specific_cost = 0.1 J/USD
+    
+    
+    #provided energy ≼ 10 kJ
+    required weight ≽  provided energy / specific_energy
+    required cost ≽ provided energy / specific_cost
+}

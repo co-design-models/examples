@@ -1,0 +1,11 @@
+mcdp {
+    provides car_weight [kg]  
+    provides payload [kg]
+    provides velocity [km/h]
+    provides distance [km]
+    
+    requires energy [J]
+    
+
+    
+}

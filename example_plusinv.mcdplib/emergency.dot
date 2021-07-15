@@ -1,0 +1,18 @@
+digraph G { 
+
+                graph [fontname = "STIX Two Math"];
+                 node [fontname = "STIX Two Math"];
+                 edge [fontname = "STIX Two Math"];
+                rankdir=LR;    nodesep=0;    esep=0;
+   node1 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",imagescale="true",shape="box",style="rounded",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD></TD></TR><TR><TD fixedsize='true' width='105' height='84'><IMG SRC='/var/folders/x0/7hg7xs891yn06qn86w4kprs40000gn/T/mcdp_tmp_dir-andrea/resized/150/tmpwgm15tp6.png'/></TD></TR></TABLE>>];
+   
+   node2 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="a [s]",fontcolor="darkgreen"];
+   
+   node3 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="x [s]",fontcolor="#861109"];
+   
+   node4 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="y [s]",fontcolor="#861109"];
+   
+   node1->node3 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node1->node4 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node2->node1 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   }
