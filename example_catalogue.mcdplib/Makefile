@@ -1,13 +1,14 @@
 all: plots solve
 
+outd=out-Makefile
 dp1=catalogue1
 dp2=catalogue_plus_coproduct
 dp3=catalogue_plus_coproduct_compact
 dp4=sizes
-outp=--out out/
+outp=--out $(outd)
 
 clean:
-	rm -rf out/
+	rm -rf $(outd)
 
 plots: plot1 plot2 plot3 plot4
 
