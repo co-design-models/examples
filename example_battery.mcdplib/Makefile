@@ -17,6 +17,9 @@ solve:
 # solve_old_syntax:
 # 	mcdp-solve  $(outp) $(dp1) "1 hour" "0 kg" "0 W"
 
+	
+	
+
 plots:
 	mcdp-plot --out $(outd)/visualization $(dp1)
 	mcdp-plot --out $(outd)/visualization battery_compact
