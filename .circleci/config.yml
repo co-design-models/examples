@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 parameters:
   context_name:
     type: string
@@ -43,7 +43,7 @@ jobs:
           mcdp-load-libraries -o out  -c "-rparmake n=4" || true 
           compmake out/compmake -c "ls; stats; details failed; why failed"
           comptests-to-junit --fail-if-failed out/compmake --output "out/comptests/junit" --output-txt "$txt_summary" --known-failures known_failures.yaml
-    - test-results-store:
+    - store_test_results:
         path: out/comptests/junit
     - store_artifacts:
         path: out/comptests/junit
