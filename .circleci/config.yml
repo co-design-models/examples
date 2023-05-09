@@ -26,6 +26,7 @@ jobs:
     - run:
         name: Python stats
         command: |
+          python3 -m pip install -U comptests-z7
           mkdir -p build-stats
           pipdeptree >  build-stats/pipdeptree.txt
           python3 -m pip list       | sort | tee  build-stats/pip-list.txt
