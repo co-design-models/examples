@@ -3,16 +3,94 @@ digraph G {
                 graph [fontname = "STIX Two Math"];
                  node [fontname = "STIX Two Math"];
                  edge [fontname = "STIX Two Math"];
-                rankdir=LR;    nodesep=0;    esep=0;
-   node1 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",imagescale="true",shape="box",style="rounded",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD></TD></TR><TR><TD fixedsize='true' width='105' height='84'><IMG SRC='/var/folders/x0/7hg7xs891yn06qn86w4kprs40000gn/T/mcdp_tmp_dir-andrea/resized/150/tmpwgm15tp6.png'/></TD></TR></TABLE>>];
+                rankdir=TB;    nodesep=0;    esep=0;
+   subgraph cluster1 {
+      fontsize="14";
+      width="0.35000000000000003";
+      height="0.35000000000000003";
+      penwidth="1.2249999999999999";
+      shape="box";
+      style="rounded";
+      label="";
+      node24 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
    
-   node2 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="a [s]",fontcolor="darkgreen"];
+      node23 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
    
-   node3 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="x [s]",fontcolor="#861109"];
+      node22 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
    
-   node4 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="y [s]",fontcolor="#861109"];
+      node21 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
    
-   node1->node3 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
-   node1->node4 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
-   node2->node1 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+      node20 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
+   
+      node19 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
+   
+      node18 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
+   
+      node17 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
+   
+      node16 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
+   
+      node15 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
+   
+      node14 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
+   
+      node13 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpy_dpod4m.png",imagescale="true",fixedsize="true",label=""];
+   
+      node12 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="IdentityDP"];
+   
+      node11 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="IdentityDP"];
+   
+      node10 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmp_d9t93id.png",imagescale="true",fixedsize="true",shape="none",label=""];
+   
+      node9 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmp0cwaqdck.png",imagescale="true",fixedsize="true",shape="none",label=""];
+   
+      node8 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpd_qyid6h.png",imagescale="true",fixedsize="true",shape="none",label=""];
+   
+      node7 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmp3o80pd2t.png",imagescale="true",fixedsize="true",shape="none",label=""];
+   
+      node6 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",image="/var/folders/b5/zw3xjcw55gb5bx_v21ybjl4w0000gn/T/mcdp_tmp_dir-andreacensi/resized/150/tmpxah76cdi.png",imagescale="true",fixedsize="true",shape="none",label=""];
+   
+      node5 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="f^½ ≤ r"];
+   
+      node4 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="f^½ ≤ r"];
+   
+      node3 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="ceil"];
+   
+      node2 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="ceil"];
+   
    }
+
+   node25 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="z ℝ₊",fontcolor="darkgreen"];
+
+   node26 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="x ℝ₊",fontcolor="#861109"];
+
+   node27 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="y ℝ₊",fontcolor="#861109"];
+
+   node24->node8 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node23->node7 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node22->node6 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node21->node10 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="NWU[](≥0)",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node20->node5 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node19->node4 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node18->node12 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node17->node11 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node16->node3 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node15->node2 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node14->node9 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="NWU[](≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node13->node10 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="NWU[](≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+   node12->node24 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node11->node23 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node10->node22 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="NWU[](≥0)",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node9->node21 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="NWU[](≥0)",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node8->node20 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node8->node27 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node7->node19 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node7->node26 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node6->node17 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node6->node18 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node5->node16 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node4->node15 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="ℝ₊",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node3->node14 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="NWU[](≥0::1)",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node2->node13 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="NWU[](≥0::1)",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node25->node9 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="dot",arrowtail="none",dir="both"];
+}

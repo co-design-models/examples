@@ -1,12 +1,11 @@
-outd=out-Makefile
-
 all: plots solve
 
+outd=out-Makefile
 
 dp1=battery
 
 clean:
-	rm -rf $(outd)
+	rm -rf $(outd)/
 
 solve:
 	mcdp-solve  --out $(outd)/01 $(dp1) "<1 hour, 0 kg, 0 W>"
@@ -16,9 +15,6 @@ solve:
 
 # solve_old_syntax:
 # 	mcdp-solve  $(outp) $(dp1) "1 hour" "0 kg" "0 W"
-
-	
-	
 
 plots:
 	mcdp-plot --out $(outd)/visualization $(dp1)

@@ -1,8 +1,8 @@
-outd=out-Makefile
-
 all: plots solve solve_float
 
-outp=--out  $(outd)
+outd=out-Makefile
+
+outp=--out $(outd)/
 dp1=plusinv1
 dp2=plusinv2
 dp3=plusinv3
@@ -12,13 +12,13 @@ dp6=plusinvnat1
 
 
 clean:
-	rm -rf out/
+	rm -rf  $(outd)
 
 solve_float:
-	#mcdp-solve  --lower 10 --movie --plot $(outp)/l10 $(dp3)  "4 s"
-	#mcdp-solve  --lower 20 --movie --plot $(outp)/l20 $(dp3)  "4 s"
-	mcdp-solve  --upper 10 --movie --plot $(outp)/u10 $(dp3)  "4 s"
-	mcdp-solve  --upper 20 --movie --plot $(outp)/u20 $(dp3)  "4 s"
+	#mcdp-solve  --lower 10 --movie --plot $(outp)/l10 $(dp3)  "4"
+	#mcdp-solve  --lower 20 --movie --plot $(outp)/l20 $(dp3)  "4"
+	mcdp-solve  --upper 10 --movie --plot $(outp)/u10 $(dp3)  "4"
+	mcdp-solve  --upper 20 --movie --plot $(outp)/u20 $(dp3)  "4"
 
 
 solve:

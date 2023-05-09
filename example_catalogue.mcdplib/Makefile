@@ -1,10 +1,10 @@
 all: plots solve
 
-outd=out-Makefile
 dp1=catalogue1
 dp2=catalogue_plus_coproduct
 dp3=catalogue_plus_coproduct_compact
 dp4=sizes
+outd=out-Makefile
 outp=--out $(outd)
 
 clean:
