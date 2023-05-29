@@ -10,13 +10,14 @@ mcdp {
     battery = instance mcdp {
         # A battery provides capacity
         provides capacity [J]
-        # ... and requires some mass to be transported
+        # ...and requires some mass to be transported
         requires mass [kg]
         # requires cost [$]
 
         specific_energy_Li_Ion = 500 Wh / kg
         required mass ≥ provided capacity / specific_energy_Li_Ion
     }
+ 
 
     # Sub-design problem: actuation
     actuation = instance mcdp {
