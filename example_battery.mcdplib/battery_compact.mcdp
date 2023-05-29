@@ -26,8 +26,8 @@ mcdp {
         # and will require power
         requires power [W]
         # simple model: quadratic
-        c = 0.002 W/N^2
-        required power ≥  c · (provided lift)^2
+        c = 0.002 W/N²
+        required power ≥ c · (provided lift)²
     }
     # Co-design constraint: the battery must be large enough
     power = power required by actuation + provided extra_power
@@ -35,7 +35,7 @@ mcdp {
     capacity provided by battery ≥ energy
 
     # Co-design constraint: actuators must be powerful enough
-    gravity = 9.81 m/s^2
+    gravity = 9.81 m/s²
     weight = (mass required by battery + provided extra_payload) · gravity
     lift provided by actuation ≥ weight
 
