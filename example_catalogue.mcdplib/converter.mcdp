@@ -1,6 +1,6 @@
 catalogue {
-    provides voltage    [set-of(V)]
-    requires v_in       [set-of(V)]
+    provides voltage    [powerset(V)]
+    requires v_in       [powerset(V)]
     requires cost       [$]
     requires mass       [g]
 

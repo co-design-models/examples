@@ -2,7 +2,7 @@
 
     simple_cell = catalogue {
 
-        provides voltage [set-of(V)]
+        provides voltage [powerset(V)]
         provides capacity [J]
 
         requires cost [$]
@@ -18,14 +18,14 @@
     }
 
     cell_plus_converter = mcdp {
-        provides voltage [set-of(V)]
+        provides voltage [powerset(V)]
         provides capacity [J]
         requires cost [$]
         requires mass [kg]
 
         converter = instance catalogue {
-            provides voltage_out [set-of(V)]
-            requires voltage_in  [set-of(V)]
+            provides voltage_out [powerset(V)]
+            requires voltage_in  [powerset(V)]
             requires cost [$]
             requires mass [g]
 

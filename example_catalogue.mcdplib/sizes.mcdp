@@ -1,12 +1,12 @@
 # test connected
 catalogue {
-    provides voltage [set-of(V)] 
-    
-    requires v_in    [set-of(V)]
+    provides voltage [powerset(V)]
+
+    requires v_in    [powerset(V)]
     requires cost    [$]
     requires mass    [g]
     requires shape   [mm × mm × mm]
-    
+
     # model name │ voltage provided │   v_in  │ cost │ weight │     shape
     # ───────────┼──────────────────┼─────────┼──────┼────────┼────────────────
       converter1 │   {5 V}          │ {1.5 V} │  5 $ │  20 g  │ ⟨5mm, 5mm, 5mm⟩
