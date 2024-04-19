@@ -118,8 +118,3 @@ jobs:
           # language=bash
           command: |
             zuper-ide-imp-mcdp-repo-load-all --source . --no-products
-      - store_test_results:
-          path: out/comptests/junit
-      - store_artifacts:
-          path: out/comptests/junit
-          destination: out-comptests-junit
