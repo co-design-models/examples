@@ -1,4 +1,4 @@
-add_bottom poset {
+ poset {
     tip_sleeve_2_5mm
     tip_sleeve_3_5mm
     barrel_5mm

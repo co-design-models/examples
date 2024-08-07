@@ -1,6 +1,6 @@
-add_bottom poset {
+poset {
     # female (socket)
-    USB_Micro_A 
+    USB_Micro_A
     USB_Micro_B
     USB_Mini_A
     USB_Mini_B
