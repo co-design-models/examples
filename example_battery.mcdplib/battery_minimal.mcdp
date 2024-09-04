@@ -1,13 +1,15 @@
 mcdp {
  provides endurance [s]
  provides payload   [kg]
- battery = instance template mcdp {
+ battery = instance mcdp {
     provides capacity [J]
     requires mass     [kg]
+    ignore unconnected
   }
- actuation = instance template mcdp {
+ actuation = instance mcdp {
     provides lift  [N]
     requires power [W]
+    ignore unconnected
   }
  capacity provided by battery ≽ \
     provided endurance · (power required by actuation)

@@ -1,6 +1,7 @@
-template mcdp {
+mcdp {
   provides power [W]
   requires heat [W]
   requires mass [g]
   requires cost [USD]
+  ignore unconnected
 }

@@ -1,6 +1,7 @@
-template mcdp {
+mcdp {
     provides shape_to_enclose [`shape]
     provides area_to_expose [m^2]
     requires mass [g]
     requires cost [g]
+    ignore unconnected
 }

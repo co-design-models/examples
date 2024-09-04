@@ -1,6 +1,7 @@
-template mcdp {
+mcdp {
     provides enclose_box1 [`shape]
     provides enclose_box2 [`shape]
     provides enclose_box3 [`shape]
     requires enclose_box  [`shape]
+    ignore unconnected
 }
