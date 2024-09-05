@@ -1,4 +1,4 @@
-mcdp simple_cell = catalogue {
+mcdp simple_cell = catalog {
     provides voltage  [℘(V)]
     provides capacity [J]
 
@@ -13,7 +13,7 @@ mcdp simple_cell = catalogue {
     model3 | {5.0 V} | 1 MJ |  5 $ | 0.30 kg
 }
 
-mcdp converters = catalogue {
+mcdp converters = catalog {
     provides voltage    [℘(V)]
     requires v_in       [℘(V)]
     requires cost       [$]
@@ -61,4 +61,3 @@ mcdp cell_interconnection = map {
 }
 simple_cell ^ cell_plus_converter
 # dptype battery = simple_cell ^ cell_plus_converter
-

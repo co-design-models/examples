@@ -1,5 +1,5 @@
 # test connected
-catalogue {
+catalog {
     provides voltage [powerset(V)]
 
     requires v_in    [powerset(V)]

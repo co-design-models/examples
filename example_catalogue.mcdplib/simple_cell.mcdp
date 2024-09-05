@@ -1,4 +1,4 @@
-catalogue {
+catalog {
   provides voltage  [℘(V)]
   provides capacity [J]
 

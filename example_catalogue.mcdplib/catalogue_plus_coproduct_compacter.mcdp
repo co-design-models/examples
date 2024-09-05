@@ -1,6 +1,6 @@
  mcdp {
 
-    simple_cell = catalogue {
+    simple_cell = catalog {
         provides voltage  [℘(V)]
         provides capacity [J]
 
@@ -15,7 +15,7 @@
         model3 | {5.0 V} | 1 MJ |  5 $ | 0.30 kg
     }
 
-    converters = catalogue {
+    converters = catalog {
         provides voltage    [powerset(V)]
         requires v_in       [powerset(V)]
         requires cost       [$]

@@ -1,4 +1,4 @@
-catalogue {
+catalog {
     provides voltage [powerset(V)]
     provides capacity [J]
 
