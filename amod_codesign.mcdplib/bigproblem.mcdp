@@ -9,9 +9,9 @@ mcdp {
     weight0 = 400 kg
     
     car_weight = weight0 + weight required by battery_model
-    car_weight ≼ car_weight provided by vehicle_model
+    car_weight ≤ car_weight provided by vehicle_model
     
-    energy required by vehicle_model ≼ energy provided by battery_model  
+    energy required by vehicle_model ≤ energy provided by battery_model  
      
     
     requires number_of_cars for amod1
@@ -20,10 +20,10 @@ mcdp {
     provides network using amod1
     
     cost0 = 50000 USD
-    required vehicle_cost >= cost0 + cost required by battery_model
-    payload provided by vehicle_model >= 100 kg
-    distance provided by vehicle_model >= distance required by amod1
-    velocity provided by vehicle_model >= velocity required by amod1
+    required vehicle_cost ≥ cost0 + cost required by battery_model
+    payload provided by vehicle_model ≥ 100 kg
+    distance provided by vehicle_model ≥ distance required by amod1
+    velocity provided by vehicle_model ≥ velocity required by amod1
     
 
 }
