@@ -1,7 +1,7 @@
 mcdp {
     provides shape_to_enclose [`shape]
-    provides area_to_expose [m^2]
+    provides area_to_expose [m²]
     requires mass [g]
-    requires cost [g]
+    requires cost [USD]
     ignore unconnected
 }
