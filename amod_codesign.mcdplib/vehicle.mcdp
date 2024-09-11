@@ -7,5 +7,5 @@ mcdp {
     requires energy [J]
     
 
-    
+    ignore unconnected
 }

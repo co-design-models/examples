@@ -7,4 +7,5 @@ mcdp {
     requires velocity [km/h]
     requires distance [km]
     
+    ignore unconnected
 }
