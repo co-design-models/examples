@@ -1,7 +1,7 @@
 mcdp {
-  provides power [W]
-  requires heat [W]
-  requires mass [g]
-  requires cost [USD]
-  ignore unconnected
+    provides power [W]
+    requires heat [W]
+    requires mass [g]
+    requires cost [USD]
+    ignore unconnected
 }

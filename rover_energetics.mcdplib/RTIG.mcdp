@@ -1,8 +1,8 @@
 mcdp {
-    plutonium_pellet =  instance `PlutoniumPellet
-    thermocouple =  instance `Thermocouple
+    sub plutonium_pellet = instance `PlutoniumPellet
+    sub thermocouple = instance `Thermocouple
 
-    heat provided by plutonium_pellet >= heat required by thermocouple
+    heat provided by plutonium_pellet ≥ heat required by thermocouple
 
     requires plutonium for plutonium_pellet
     provides power_profile = power provided by thermocouple

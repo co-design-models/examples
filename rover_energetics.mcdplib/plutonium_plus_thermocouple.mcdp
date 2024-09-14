@@ -1,7 +1,7 @@
 mcdp {
-    plutonium_pellet = instance `PlutoniumPellet
+    sub    plutonium_pellet = instance `PlutoniumPellet
 
-    thermocouple = instance `Thermocouple
+    sub thermocouple = instance `Thermocouple
     heat required by thermocouple ≤ heat provided by plutonium_pellet
     
     requires cost = ∑ cost required by *

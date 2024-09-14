@@ -2,7 +2,7 @@ mcdp {
     provides power_profile [W]
     requires mass [g]
     requires cost [USD]
-    requires area [m^2]
+    requires area [m²]
     requires solar_radiation [lux]
     ignore unconnected
 }
