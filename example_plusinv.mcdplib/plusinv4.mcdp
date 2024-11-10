@@ -3,7 +3,7 @@ mcdp {
 	provides z [dimensionless]
 	variable x, y [dimensionless]
 
-	x + y >= sqrt(x) + y * 0.5 [] + provided z
+	x + y >= sqrt(x) + y * 0.5  + provided z
 
 	requires x, y
 }
